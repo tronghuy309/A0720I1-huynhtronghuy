@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tao_form_don_gian_phan_2</title>
+</head>
+<style>
+    fieldset
+    {
+        background-color:#FFFDA9 ;
+    }
+    th,td {align-content: left}
+    #b00 {
+        color:#0433FF ;
+    }
+    #b01 {
+        color: #384eaa;
+    }
+</style>
+<body>
+<form  action="www.google.com" method="get">
+    <fieldset style="width: 500px">
+        <table id="b00" STYLE="background-color: aquamarine">
+            <tr>
+                <th width="500px" align="left">
+                    ĐĂNG KÝ HỌC VIÊN
+                </th>
+            </tr>
+        </table>
+
+        <table id="b01">
+            <tr>
+                <td>Họ và tên<td>
+                <td><input type="text" name="name"></td>
+            </tr>
+
+            <tr>
+                <td>Ngày sinh<td>
+                <td><input type="text" name="birthday"></td>
+            </tr>
+
+            <tr>
+                <td>Giới tính<td>
+                <td><input type="radio" name="Nam" checked>Nam<input type="radio" name="Nam">Nữ</td>
+            </tr>
+
+            <tr>
+            <td >Địa chỉ<td>
+            <td><textarea name="dien" rows="5" cols="50"></textarea>
+            </tr>
+
+            <tr>
+                <td>Lớp<td>
+                <td>
+                    <select>
+                        <option value="-chọn lớp-">-chọn lớp-</option>
+                        <option value="Lớp 1"> Lớp 1</option>
+                        <option value="Lớp 2"> Lớp 2 </option>
+                    </select>
+
+            </tr>
+
+            <tr>
+                <td>Email<td>
+                <td><input type="text" name="address"></td>
+            </tr>
+
+            <tr>
+                <td>Điện thoại<td>
+                <td><input type="text" name="address"></td>
+            </tr>
+
+            <tr>
+                <td><td>
+                <td><input type="submit" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+
+
+        </table>
+    </fieldset>
+
+</form>
+
+</body>
+</html>
