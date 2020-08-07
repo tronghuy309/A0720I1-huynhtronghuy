@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_7_tinh_tien_dien_thoai_cua_mot_gia_dinh</title>
+</head>
+<p>Cước phí thuê bao: 22.000đ/tháng</p> <br/>
+<p>số phút gọi liên tỉnh nội mạng VNPT (800đ/phút)</p> <input type="number" id="inVnpt">
+<p>số phút gọi liên tỉnh ngoại mạng VNPT(891đ/phút)</p> <input type="number" id="outVnpt">
+<p>số phút gọi đến mạng vinaphone(850đ/phút)</p> <input type="number" id="vina">
+<p>số phút gọi mạng di động khác(1090đ/phút)</p> <input type="number" id="diff">
+<p>số phút gọi quốc tế(5000đ/phút)</p> <input type="number" id="inter"> <br/>  <br/>
+<input type="submit" onclick="calculator()" value="so tien dien thoai thang hien tai">
+<body>
+<script>
+    function calculator() {
+        let a=parseInt(document.getElementById("inVnpt").value);
+        let b=parseInt(document.getElementById("outVnpt").value);
+        let c=parseInt(document.getElementById("vina").value);
+        let d=parseInt(document.getElementById("diff").value);
+        let e=parseInt(document.getElementById("inter").value);
+        let total=a+b+c+d+e;
+        let money=a*800+b*891+c*850+d*1090+e*5000+20000;
+        if (total>1000) {
+            document.write('so phut goi vuot qua khung 3, so tien dien thoai thang nay la ' + money*1.2 + 'VND');
+        }
+        else if (total>800) {
+            document.write('so phut goi vuot qua khung 2, so tien dien thoai thang nay la ' + money*1.1+ 'VND');
+        }
+        else if (total>600) {
+            document.write('so phut goi vuot qua khung 1, so tien dien thoai thang nay la ' + money*1.05+ 'VND');
+        }
+        else  {
+            document.write('so phut goi trong khung cho phep, so tien dien thoai thang nay la ' + money+ 'VND');
+        }
+    }
+</script>
+
+</body>
+</html>

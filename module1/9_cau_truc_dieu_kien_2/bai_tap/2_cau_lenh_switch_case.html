@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_lenh_switch_case</title>
+</head>
+<body>
+
+<form>
+    <input type="text" id="month" />
+    <input type="submit" onclick="tinh()" value="so ngay trong thang la"/>
+
+</form>
+<script>
+
+    function tinh() {
+        let i=parseInt(document.getElementById("month").value);
+        switch (i) {
+                case 2: {
+                    document.write("Thang 2 co 28 hoac 29 ngay");
+                    break;
+                }
+                case 1:
+                case 3:
+                case 5:
+                case 7:
+                case 8:
+                case 10:
+                case 12: {
+                    document.write("Thang " + i + " co 31 ngay");
+                    break;
+                }
+                case 4:
+                case 6:
+                case 9:
+                case 7:
+                case 11: {
+                    document.write("Thang " + i + " co 30 ngay");
+                    break;
+                }
+                default:{
+                    document.write("nhap sai thang");
+
+                }
+            }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_6_tinh_doanh_so_ban_hang</title>
+</head>
+<body>
+<p>Nhap doanh so ban hang: <input type="text" id="sales"></p>
+<input type="submit" onclick="commission()" value="Commission">
+<script>
+    function commission() {
+        let sales=parseInt(document.getElementById("sales").value);
+        if (sales>=100000000) {
+            document.write('Tien hoa hong cua ban la ' + sales*0.3+' VND')
+        }
+        else if (sales>=80000000) {
+            document.write('Tien hoa hong cua ban la ' + sales*0.25+' VND')
+        }
+        else if (sales>=60000000) {
+            document.write('Tien hoa hong cua ban la ' + sales*0.2+' VND')
+        }
+        else if (sales>=50000000) {
+            document.write('Tien hoa hong cua ban la ' + sales*0.15+' VND')
+        }
+        else if (sales>=20000000) {
+            document.write('Tien hoa hong cua ban la ' + sales*0.1+' VND')
+        }
+        else  {
+            document.write('ban khong nhan duoc tien hoa hong can co gang them')
+        }
+
+    }
+
+</script>
+</body>
+</html>

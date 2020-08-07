@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc_hanh_luyen_tap_voi_cau_truc_if_else_if</title>
+</head>
+<body>
+<script>
+   let username=prompt("moi dang nhap");
+   if (username=="admin") {
+       let pass=prompt("nhap password");
+       if(pass=="TheMaster") {
+           alert("Welcome")
+       } else if (pass=="null") {
+           alert("canceled")
+       } else {
+           alert("wrong password")
+       }
+   } else if(username=="null") {
+       alert("Canceled")
+   }else {
+       alert("i don't know you")
+   }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>su_sung_vong_lap_long_nhau_2</title>
+</head>
+<body>
+<script>
+    let i;
+    let j;
+    let sout;
+    sout="<table border='1' width='300' cellspacing='0' cellpadding='3'>";
+    i=j=1;
+    while (i<=10){
+        sout=sout+"<tr>";
+        while (j<=10) {
+            sout=sout + "<td>"+ i*j + "</td>";
+            j++ ;
+        }
+        sout=sout+"</tr>";
+        j=1;
+        i++;
+    }
+    sout=sout+"</table>";
+    document.write(sout);
+</script>
+</body>
+</html>

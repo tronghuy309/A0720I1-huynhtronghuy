@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>7_5_luyen_tap_cau_truc_dieu_kien_1</title>
+</head>
+<body>
+<form>
+    <p>So diem bai kiem tra lan 1:<br/></p>
+    <input type="number" id="test1">
+    <p>So diem bai kiem tra lan 2:<br/></p>
+    <input type="number" id="test2">
+    <p>So diem bai kiem tra lan 3:<br/></p>
+    <input type="number" id="test3">
+    <p>So diem bai kiem tra giua ki:<br/></p>
+    <input type="number" id="testhaft">
+    <p>So diem bai kiem tra cuoi ki:<br/></p>
+    <input type="number" id="testfinal"> <br/>
+    <input type="submit" onclick="tinh()" value="xep loai hoc sinh">
+
+</form>
+<script>
+    function tinh() {
+        let a = parseInt(document.getElementById("test1").value);
+        let b = parseInt(document.getElementById("test2").value);
+        let c = parseInt(document.getElementById("test3").value);
+        let d = parseInt(document.getElementById("testhaft").value);
+        let f = parseInt(document.getElementById("testfinal").value);
+        let h =(a+b+c+2*d+f*4)/9;
+        if (a<0 || b<0 || c<0 || d<0 || f<0 ) {
+            document.write('nhap sai so de nghi nhap lai');
+            }
+        else if (h >= 9) {
+            document.write('hoc sinh nay xep loai xuat sac');
+        }
+        else if (h >= 8) {
+            document.write('hoc sinh nay xep loai gioi');
+        }
+        else if (h >= 7) {
+            document.write('hoc sinh nay xep loai kha');
+        }
+        else if (h >= 5) {
+            document.write('hoc sinh nay xep loai trung binh');
+        }
+        else {
+            document.write('hoc sinh nay xep loai yeu');
+        }
+    }
+</script>
+</body>
+</html>
