@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tim_gia_tri_lon_nhat_trong_mang</title>
+</head>
+<body>
+<script>
+    let x=[4,-5,3,4,8,8,3,4];
+    let max=x[0];
+    let index=0;
+    for (i=0;i<x.length;i++) {
+        if(x[i]>max) {
+            max=x[i];
+            index=i;
+        }
+    }
+   alert('gia tri lon nhat cua mang la: '+max+' tai vi tri la '+ index);
+
+//let sẽ gán cứng giá trị cho biến, nên khi let max=x[i] ta sex ra gia tri dau tien
+    // bởi vậy ta phải dùng toán tử bình thường để cho max thay đổi.
+    //xuất vị trí ra thì ta cũng phải gán một biến trung gian cho nó. vì i thay doi den vị trí cuối cùng của mảng
+</script>
+</body>
+</html>

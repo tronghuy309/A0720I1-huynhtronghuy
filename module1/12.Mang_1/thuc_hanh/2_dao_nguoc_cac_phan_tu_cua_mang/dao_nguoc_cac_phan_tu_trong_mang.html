@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dao_nguoc_cac_phan_tu_trong_mang</title>
+</head>
+<body>
+<script>
+    let x=[1,2,3,4,5,6];
+    let first=0;
+    let last=x.length-1;
+    while (first<last){
+        let b=x[first];
+        x[first]=x[last];
+        x[last]=b;
+        first++;
+        last--;
+    }
+    document.write(x);
+    //fist là index de chay tu 0 len lenght-1. last sẽ giảm từ length-1 về cho o
+    // và để cho 2 số first và last không đụng nhau cần thêm 1 giá trị b trung gian để
+    //gán chuyển đổi cho 2 biến  này.
+</script>
+</body>
+</html>
