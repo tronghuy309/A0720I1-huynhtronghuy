@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c619d8-b756-414a-84b5-ba3eda6624ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/1_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/2_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tao_va_goi_ham_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chuyen_doi_nhiet_do.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tim_gia_tri_nho_nhat_cua_mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" afterDir="false" />
@@ -16,6 +13,11 @@
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_4_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_4_luyen_tap_vong_lap_1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/Nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/Nháp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/1_su_dung_cac_ham_co_san_cua_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/1_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/2_su_dung_cac_ham_co_san_cua_mang.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/2_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597398653615</updated>
-      <workItem from="1597398654948" duration="512000" />
+      <workItem from="1597398654948" duration="5803000" />
     </task>
     <servers />
   </component>

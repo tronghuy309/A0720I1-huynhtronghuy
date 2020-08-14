@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen_doi_nhiet_do</title>
+</head>
+<body>
+<h1>Temperature Converter</h1> <br/>
+<h3>Type a value in the Fahrenheit field to convert the value</h3>
+<h3>Fahrenheit:</h3>
+<input type="number" id="inPutTemp" oninput="changeTemp(this.value)">
+<p>Celcius:<span id="outPutTemp"></span></p>
+
+<script>
+    function changeTemp(temp) {
+         temp=parseFloat(temp);
+        document.getElementById("outPutTemp").innerHTML=(temp-32)/1.8;
+    }
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
