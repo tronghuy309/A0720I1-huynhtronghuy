@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61c619d8-b756-414a-84b5-ba3eda6624ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/1_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/2_su_dung_cac_ham_co_san_cua_mang.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../13_mang_2/bai_tap/su_dung_cac_ham_co_san_cua_mang/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tao_va_goi_ham_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_2_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_2_luyen_tap_vong_lap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_3_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_3_luyen_tap_vong_lap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_4_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_4_luyen_tap_vong_lap_1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/Nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/Nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../12.Mang_1/thuc_hanh/5_tao_ban_co_caro_co_ban/5_tao_ban_co_caro_co_ban.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1g5JjJLvv9W5UJKN25kCAwzCDdO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61c619d8-b756-414a-84b5-ba3eda6624ed" name="Default Changelist" comment="" />
+      <created>1597398653615</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597398653615</updated>
+      <workItem from="1597398654948" duration="512000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
