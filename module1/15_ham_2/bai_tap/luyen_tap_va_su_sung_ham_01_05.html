@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyen_tap_va_su_sung_ham_01_05</title>
+</head>
+<body>
+<script>
+    let stars=["Polaris","Aldebara","Deneb","Vega","altair","Dubhe","Regulus"];
+    let constellation=["Ursa Minor", "Tarurus","Cygnus","Lyra","Aquila","Ursa Major","Leo"];
+    let starInput=prompt("nhap vao ten ngoi sao");
+
+    function findConstellaiton(star) {
+        for (i=0;i<stars.length;i++) {
+            if(star==stars[i]) {
+                return constellation[i];
+            }
+        }
+
+    }
+
+    alert(findConstellaiton(starInput));
+
+
+</script>
+
+</body>
+</html>

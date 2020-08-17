@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyen_tap_va_su_dung_ham_02_05</title>
+</head>
+<body>
+<script>
+    let num1=parseInt(prompt("nhap vao so thu 1"));
+    let num2=parseInt(prompt("nhap vao so thu 2"));
+    let num3=parseInt(prompt("nhap vao so thu 3"));
+
+    function findMax(first,second,third) {
+        if( first>=second && first>=third) {
+            alert("so lon nhat la "+ first);
+        } else if( second>=first && second>=third) {
+            alert("so lon nhat la "+ second);
+        } else {
+            alert("so lon nhat la "+ third);
+        }
+    }
+
+    alert(findMax(num1,num2,num3));
+</script>
+
+</body>
+</html>

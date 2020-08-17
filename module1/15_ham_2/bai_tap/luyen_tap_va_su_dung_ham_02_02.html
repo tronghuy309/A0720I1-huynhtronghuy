@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyen_tap_va_su_dung_ham_02_02</title>
+</head>
+<body>
+<script>
+    let radiusAdd=parseInt(prompt("nhap vao ban kinh duong tron"));
+    const PI=3.14;
+
+    function acreage(radius) {
+        Acreage=PI*PI*radius;
+        return Acreage;
+    }
+
+    function perimeter(radius) {
+        Perimeter=2*PI*radius;
+        return Perimeter;
+    }
+
+    alert("dien tich hinh tron la "+acreage(radiusAdd));
+    alert("chu vi hinh trong la "+perimeter(radiusAdd));
+</script>
+</body>
+</html>

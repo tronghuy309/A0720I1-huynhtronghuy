@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyen_tap_va_su_sung_ham_01_03_01</title>
+</head>
+<body>
+<script>
+    let numFirst=parseInt(prompt("nhap so thu nhat"));
+    let numSecond=parseInt(prompt("nhap so thu hai"));
+    function addNums(num1,num2) {
+        if((isNaN(num1))||(isNaN(num2))) {
+            alert("yeu cau nhap vao ca hai deu la so")
+        } else if (num1>num2) {
+            alert(num1 + " lon hon "+num2)
+        } else {
+            let result=num1+num2;
+            return result ;
+        }
+    }
+    alert(addNums(numFirst,numSecond));
+</script>
+
+</body>
+</html>
