@@ -5,8 +5,26 @@
     <title>luyen_tap_va_su_dung_ham_02_08</title>
 </head>
 <body>
+<input type="text" id="txtValue">
+<input type="button" value="Add" id="btnAdd" onclick="addElementToArray()"/>
+<input type="button" value="Reserve" id="btnReserve" onclick="reserveArray()"/>
+<div id="result">ket qua</div>
+
 <script>
-    
+    let x=0;
+    let array=Array();
+
+    function addElementToArray() {
+        array[x]=document.getElementById("txtValue").value;
+        alert("Element:" + array[x]+" Add at index "+ x);
+        x++;
+    }
+
+    function reserveArray() {
+        ReverseArray=array.reverse();
+        document.getElementById("result").innerHTML=ReverseArray;
+    }
+
 </script>
 </body>
 </html>

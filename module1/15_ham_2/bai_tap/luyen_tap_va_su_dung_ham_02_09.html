@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>luyen_tap_va_su_dung_ham_02_09</title>
+</head>
+<body>
+<input type="text" id="txtValue" placeholder="number add to Array"/>
+<input type="text" id="Check" placeholder="numberCheck"/>
+<input type="button" value="Add" onclick="addElement()"/>
+<input type="button" value="check" onclick="checkArray()"/>
+
+<script>
+    let x=0;
+    let array=Array();
+    function addElement() {
+        array[x]=document.getElementById("txtValue").value;
+        alert("element nhap vao la "+array[x]+" tai vi tri index "+ x);
+        x++;
+    }
+
+    function checkArray() {
+        numberCheck=document.getElementById("Check").value;
+        count=0;
+        for(i=0;i<array.length;i++) {
+            if( array[i]==numberCheck) {
+                count=count+1;
+            }
+        }
+        if(count>0) {
+            alert("so "+numberCheck+" co xuat hien trong mang voi so lan xuat hien la "+count+ " lan.")
+        } else {
+            alert(numberCheck + "  khong xuat hien trong mang: -1")
+        }
+    }
+
+</script>
+
+</body>
+</html>
