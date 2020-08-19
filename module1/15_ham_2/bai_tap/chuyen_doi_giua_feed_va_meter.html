@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>chuyen_doi_giua_feed_va_meter</title>
+</head>
+<body>
+<script>
+    function feedToMeter(foot) {
+        meter=0.305*foot;
+        alert(foot+" foot doi sang meter co gia tri la: "+meter);
+    }
+
+    function meterToFoot(meter) {
+        foot=3.279*meter;
+        alert(meter+" meter doi sang meter co gia tri la: "+foot);
+    }
+
+
+    feedToMeter(1);
+    meterToFoot(0.305);
+    feedToMeter(2);
+    meterToFoot(0.601);
+    feedToMeter(4);
+    meterToFoot(2.745);
+    feedToMeter(9);
+    meterToFoot(3.050);
+
+</script>
+</body>
+</html>

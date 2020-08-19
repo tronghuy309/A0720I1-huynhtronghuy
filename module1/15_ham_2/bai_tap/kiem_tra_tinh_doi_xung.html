@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem_tra_tinh_doi_xung</title>
+</head>
+<body>
+<script>
+    function ispalindrome(str) {
+        str=str.toLowerCase().split('');
+        lens=str.length-1;
+        for(i=0;i<lens/2;i++){
+            if(str[i] !==str[lens-i]) {
+                return false;
+            }
+        }
+        return true;
+    }
+    input=prompt("hay nhap vao chu can kiem tra");
+    alert(ispalindrome(input));
+
+</script>
+</body>
+</html>
