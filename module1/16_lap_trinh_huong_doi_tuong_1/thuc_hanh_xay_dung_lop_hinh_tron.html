@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc_hanh_xay_dung_lop_hinh_tron</title>
+</head>
+<body>
+<script>
+    class Circle{
+        constructor(radius) {
+            this.radius = radius;
+        }
+        getRadius() {
+            return this.radius;
+        }
+        getArea() {
+            let result1 = Math.PI * this.radius * this.radius;
+            return  result1;
+        }
+    }
+
+    let myCircle = new Circle(2);
+    alert(myCircle.getArea());
+    alert(myCircle.getRadius());
+    alert("radius : " + myCircle.getRadius() + "; Area: "+ myCircle.getArea());
+
+</script>
+
+</body>
+</html>

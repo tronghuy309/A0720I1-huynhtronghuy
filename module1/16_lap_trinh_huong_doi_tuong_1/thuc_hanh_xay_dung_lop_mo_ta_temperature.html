@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc_hanh_xay_dung_lop_mo_ta_temperature</title>
+</head>
+<body>
+<script>
+    class Temperature {
+        constructor(temp) {
+            this.temp=temp;
+        }
+
+        CtoF(){
+            let F=this.temp*1.8+32;
+            return F;
+        }
+
+        CtoKenvin(){
+            let Kenvin=this.temp+273;
+            return Kenvin;
+        }
+    }
+
+    let myTemp= new Temperature(25);
+    alert("nhiet do F là: "+myTemp.CtoF()+" ;nhiet do Kenvin la: "+myTemp.CtoKenvin());
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thuc_hanh_Funny_circles</title>
+</head>
+<body>
+<canvas id="myCanvas" width="1368px" height="768px" style="border:1px solid #d3d3d3;"></canvas>
+<script>
+    class Circle{
+        constructor(x,y,radius) {
+            this.x=x;
+            this.y=y;
+            this.radius=radius;
+        }
+        setX(x){
+            this.x=x;
+        }
+        setY(y){
+            this.y=y;
+        }
+        setRadius(radius){
+            this.radius=radius;
+        }
+
+        createCircle(){
+            var  canvas=document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            var color = "rgb(" + Math.floor(Math.random()*255) + "," + Math.floor(Math.random()*255) + "," + Math.floor(Math.random()*255) +")";
+            ctx.beginPath();
+            ctx.arc(myCircle.x, myCircle.y, myCircle.radius, 0,2*Math.PI);
+            ctx.fillStyle = color;
+            ctx.fill();
+        }
+
+
+    }
+   let myCircle= new Circle(0,0,0);
+
+    for(let i=0;i<30;i++) {
+        myCircle.setRadius(Math.floor(Math.random() * 80));
+        myCircle.setX(Math.floor(Math.random() * 1368 ));
+        myCircle.setY(Math.floor(Math.random() * 768 ));
+        myCircle.createCircle();
+    }
+
+
+
+</script>
+</body>
+</html>

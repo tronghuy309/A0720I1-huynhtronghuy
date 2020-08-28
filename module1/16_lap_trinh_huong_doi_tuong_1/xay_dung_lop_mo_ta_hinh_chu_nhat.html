@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xay_dung_lop_mo_ta_hinh_chu_nhat</title>
+</head>
+<canvas id="myCanvas" width="300" height="100" style="border: 1px solid #000000;">
+</canvas>
+<body>
+<script>
+    class Rectangle{
+        constructor(len, wid) {
+            this.len = len;
+            this.wid = wid;
+        }
+        setLen(len){
+            this.len = len;
+        }
+        setWid(wid){
+            this.wid = wid;
+        }
+        acreage(){
+            let result1= this.len * this.wid;
+            return result1;
+        }
+        perimeter(){
+            let result2=(this.len + this.wid)/2;
+            return result2;
+        }
+        displayCanvas(){
+            var  canvas=document.getElementById("myCanvas");
+            var ctx = canvas.getContext("2d");
+            ctx.fillStyle = "#FF0000";
+            ctx.fillRect(15,15,150,75);
+        }
+    }
+
+    let myRectangle= new Rectangle(30,10);
+    myRectangle.displayCanvas();
+    alert(myRectangle.acreage());
+    alert(myRectangle.perimeter());
+    myRectangle.setLen(40);
+    myRectangle.setWid(25);
+    alert(myRectangle.acreage());
+    alert(myRectangle.perimeter());
+
+
+
+
+
+</script>
+</body>
+</html>
