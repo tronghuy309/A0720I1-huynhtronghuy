@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_03</title>
 </head>
 <body>
-$END$
+<script>
+    let arr= Array();
+    let sum=0;
+    let len=parseInt(prompt("nhap vao do dai cua chuoi"));
+    for(i=0;i<len;i++) {
+        arr[i]=parseInt(prompt("nhap vao du lieu cho mang"));
+    }
+
+    let max=arr[0];
+
+    for(j=0;j<len;j++){
+        if(arr[j]>=max) {
+            max=arr[j];
+        }
+        sum+=arr[j];
+    }
+    average=sum/len;
+    alert("so lon nhat trong mang la :"+ max +". Gia tri trung binh cua mang la: "+average);
+</script>
 </body>
 </html>

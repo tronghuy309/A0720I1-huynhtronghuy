@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_02_04</title>
 </head>
 <body>
-$END$
+<script>
+    let str=prompt("nhap vap chuoi can kiem tra so tu");
+    let arr=str.split('');
+    count=0;
+    for(let i=0;i<arr.length;i++) {
+        if( isNaN(arr[i])) {
+            count++;
+        }
+    }
+    alert("chuoi vua nhap co "+count+" ki tu");
+</script>
+
 </body>
 </html>

@@ -2,9 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_02_06</title>
 </head>
 <body>
-$END$
+<script>
+    let str=prompt("hay nhap vao mot day ky tu");
+    let arr=str.split('');
+    for(i=0;i<arr.length;i++) {
+        if(arr[i]==="-") {
+            arr[i]="_";
+        }
+    }
+    let newStr=arr.join('');
+    alert(newStr);
+</script>
 </body>
 </html>

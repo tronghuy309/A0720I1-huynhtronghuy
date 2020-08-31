@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_07</title>
 </head>
 <body>
-$END$
+<script>
+    let arr=Array();
+    let len=parseInt(prompt("nhap vao do dai cua mang"));
+
+    for(i=0;i<len;i++) {
+        arr[i]=prompt("nhap vao cac gia tri cua mang");
+    }
+
+    let numV=parseInt(prompt("nhap vao so V can kiem tra"));
+    let check=false;
+    index=0;
+    for(j=0;j<len;j++){
+        if (arr[j]==numV) {
+            check=true;
+            index=j;
+        }
+    }
+
+    if(check) {
+        arr.splice(index,1);
+        arr.push(0);
+    }
+    alert("mang sau khi xoa so V: "+arr);
+</script>
 </body>
 </html>

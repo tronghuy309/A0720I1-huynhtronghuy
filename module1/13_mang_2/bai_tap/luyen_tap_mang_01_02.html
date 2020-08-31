@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_02</title>
 </head>
 <body>
-$END$
+<script>
+    let arr=Array();
+    for(i=0;i<10;i++){
+        arr[i]=parseInt(prompt("nhap vao gia tri cho mang"));
+    }
+
+    max=arr[0];
+    for(j=0;j<10;j++) {
+        if(arr[j]>=max) {
+            max=arr[j];
+        }
+    }
+
+    alert("so lon nhat trong mang la "+ max);
+
+</script>
 </body>
 </html>

@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>bai_tap_tu_dien</title>
 </head>
 <body>
-$END$
+<script>
+    let inputWord=prompt("nhap tu can tra nghia tieng viet");
+    let english=["you","me","love","hate","we"];
+    let vietnam=["bạn","tôi","yêu","ghét","chúng tôi"];
+    function searchWord () {
+        for (i=0;i<english.length;i++) {
+            if (english[i]==inputWord) {
+                return vietnam[i];
+            }
+        }
+        return "khong tim thay nghia cua tu can nhap"
+    }
+    alert(searchWord(inputWord));
+
+</script>
+
 </body>
 </html>

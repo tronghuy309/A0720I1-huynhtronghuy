@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61c619d8-b756-414a-84b5-ba3eda6624ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chuyen_doi_nhiet_do.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tim_gia_tri_nho_nhat_cua_mang.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/2_hien_thi_cac_so_nguyen_to_dau_tien.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/4_3_2 day fibonacci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../11_cau_truc_lap_2/bai_tap/4_1_luyen_tap_vong_lap_1.html" afterDir="false" />
@@ -45,7 +42,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../13_mang_2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,11 +60,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1597398653615</updated>
-      <workItem from="1597398654948" duration="5803000" />
+      <workItem from="1597398654948" duration="6420000" />
+      <workItem from="1597661370452" duration="97000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1597661465627">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1597414467119" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597661465627" />
   </component>
 </project>

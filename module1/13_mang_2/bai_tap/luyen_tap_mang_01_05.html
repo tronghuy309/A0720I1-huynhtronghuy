@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_05</title>
 </head>
 <body>
-$END$
+<script>
+    let arr=Array();
+    let len=parseInt(prompt("nhap vao do dai cua mang"));
+    for(i=0;i<len;i++) {
+        arr[i]=prompt("nhap vao cac gia tri cua mang");
+    }
+
+    count=0;
+    for(j=0;j<len;j++) {
+        if(arr[j]<0) {
+            count++;
+        }
+    }
+    alert("Mang vua nhap co "+count+" so nguyen am");
+
+</script>
 </body>
 </html>

@@ -2,9 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_08</title>
 </head>
 <body>
-$END$
+<script>
+    let arr=Array();
+    let len=parseInt(prompt("nhap vao do dai cua mang"));
+
+    for(i=0;i<len;i++) {
+        arr[i]=prompt("nhap vao cac gia tri cua mang");
+    }
+
+    arr.sort(function(a,b) {return b-a;});
+    alert(arr);
+
+
+</script>
 </body>
 </html>

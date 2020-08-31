@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_09</title>
 </head>
 <body>
-$END$
+<script>
+    let arrA=Array();
+    let arrB=Array();
+    let arrC=Array(20);
+
+    for(i=0;i<10;i++) {
+        arrA[i]=parseInt(prompt("nhap vao gia tri cua mang A"));
+    }
+    alert(arrA);
+
+    for(j=0;j<10;j++) {
+        arrB[j]=parseInt(prompt("nhap vao gia tri cua mang B"));
+    }
+    alert(arrB);
+
+     arrC=arrA.concat(arrB);
+    alert(arrC);
+
+
+
+</script>
 </body>
 </html>

@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>4_4_luyen_tap_vong_lap_1</title>
 </head>
 <body>
-$END$
+<script>
+    let a=1;
+    let b=1;
+    let c;
+    let i;
+    for(i=3;i<=2000;i++) {
+        c=a+b;
+        if(c%14==0) {
+            document.write('so dau tien chia het cho 5 la '+ c);
+            break;
+        }
+
+        a=b;
+        b=c;
+    }
+</script>
 </body>
 </html>

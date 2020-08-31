@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_01_01</title>
 </head>
 <body>
-$END$
+<script>
+    let array=[];
+    let count=0;
+    for(let i=0;i<10;i++) {
+        array[i]=parseInt(prompt("nhap vao gia tri cho mang"));
+        if(array[i]>=10) {
+            count++;
+        }
+    }
+    alert("mang array co "+count+" so lon hon hoac bang 10");
+</script>
+
 </body>
 </html>

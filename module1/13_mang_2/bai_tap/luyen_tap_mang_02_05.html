@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>luyen_tap_mang_02_05</title>
 </head>
 <body>
-$END$
+<script>
+    let arrA=Array();
+    let arrB=Array();
+    let lenarrA=parseInt(prompt("nhap vao do dai cua chuoi A"));
+    let lenarrB=parseInt(prompt("nhap vao do dai cua chuoi B"));
+    if ( lenarrA!==lenarrB) {
+        alert("chuoi A khong bang chuoi B");
+    } else {
+        for(let i=0;i<lenarrA;i++) {
+            arrA[i]=prompt("nhap vao gia tri cho phan tu co index "+i+" cua mang A");
+            alert("phan tu co index "+i+" co gia tri la "+arrA[i]);
+        }
+
+        for(let j=0;j<lenarrB;j++) {
+            arrB[j]=prompt("nhap vao gia tri cho phan tu co index "+j+" cua mang B");
+            alert("phan tu co index "+j+" co gia tri la "+arrB[j]);
+        }
+
+        result=true;
+        if( lenarrA===lenarrB){
+            for(i=0;i<lenarrA;i++) {
+                if(arrA[i]!==arrB[i]) {
+                    result=false;
+                }
+            }
+        } else{
+            result=false;
+        }
+
+        if(result) {
+            alert("chuoi A bang chuoi B")
+        } else {
+            alert("chuoi A khac chuoi B")
+        }
+    }
+
+
+
+
+
+</script>
 </body>
 </html>
