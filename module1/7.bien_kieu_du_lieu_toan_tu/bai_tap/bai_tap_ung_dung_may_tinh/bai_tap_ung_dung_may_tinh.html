@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_tap_ung_dung_may_tinh</title>
+</head>
+<body>
+<h1>Calculator</h1>
+<form onsubmit="return false" id="fomr">
+    <label for="numA">Num A</label>
+    <input style="number" id="numA" required></br>
+    <label for="numB">Num B</label>
+    <input style="number" id="numB" required></br>
+    <input type="submit" id="add" value="Addition(+)">
+    <input type="submit" id="sub" value="Subtraction(-)">
+    <input type="submit" id="multi" value="Multiplication(*)">
+    <input type="submit" id="div" value="Division(/)">
+</form>
+<h2>Result Division:</h2> </br>
+<div id="result"></div>
+
+<script>
+    document.getElementById("add").addEventListener("click",addition);
+    document.getElementById("sub").addEventListener("click",subtraction);
+    document.getElementById("multi").addEventListener("click",multiplication);
+    document.getElementById("div").addEventListener("click",division);
+
+
+    function addition() {
+        let getA=document.getElementById("numA");
+        let getB=document.getElementById("numB");
+        let sumAB;
+        sumAB= parseFloat(getA.value)+parseFloat(getB.value)
+        document.getElementById("result").innerHTML=sumAB;
+    }
+
+    function subtraction() {
+        let getA=document.getElementById("numA");
+        let getB=document.getElementById("numB");
+        let subAB;
+        subAB= parseFloat(getA.value)-parseFloat(getB.value)
+        document.getElementById("result").innerHTML=subAB;
+    }
+
+    function multiplication() {
+        let getA=document.getElementById("numA");
+        let getB=document.getElementById("numB");
+        let multiAB;
+        multiAB= parseFloat(getA.value)*parseFloat(getB.value)
+        document.getElementById("result").innerHTML=multiAB;
+    }
+
+    function division() {
+        let getA=document.getElementById("numA");
+        let getB=document.getElementById("numB");
+        let divAB;
+        divAB= parseFloat(getA.value)/parseFloat(getB.value)
+        document.getElementById("result").innerHTML=divAB;
+    }
+
+
+</script>
+</body>
+</html>
