@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_6_luyen_tap_vong_lap_1</title>
+</head>
+<body>
+<script>
+    let count = 0;
+    let sum = 0;
+    let result = "";
+        for ( let i = 7; i <= 256000; i ++) {
+            if ( i % 7 === 0) {
+                count ++;
+                sum += i;
+                result += + i + " chia het cho 7 " + "</br>";
+                if ( count === 30) {
+                    break;
+                }
+            }
+        }
+        document.write(result);
+        document.write(parseInt(sum));
+
+</script>
+</body>
+</html>

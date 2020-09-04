@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4_8_luyen_tap_vong_lap_1</title>
+</head>
+<body>
+<script>
+    function gameNumber() {
+        let numBot = parseInt(prompt("Nhập cận dưới:"));
+        let numTop = parseInt(prompt("nhập cận trên:"));
+        let numRandom = Math.round(Math.random() * (numTop - numBot) + 1);
+        let myNum = parseInt(prompt("nhập số bạn đoán: "));
+        while(myNum != numRandom){
+            while(myNum > numRandom){
+                myNum = parseInt(prompt("Nhập sô bé hơn nào:"));
+            }
+            while(myNum < numRandom){
+                myNum = parseInt(prompt("Nhập số lớn hơn nào:"));
+            }
+        }
+        alert("Bạn đã chọn số chính xác")
+    }
+    gameNumber();
+</script>
+</body>
+</html>

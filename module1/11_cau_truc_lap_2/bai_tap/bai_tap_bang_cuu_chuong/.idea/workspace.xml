@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2c358b59-3c02-4378-a9a2-5bed815ddd4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/bai_tap_sinh_bang_cuu_chuong.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2_hien_thi_cac_so_nguyen_to_dau_tien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4_3_2 day fibonacci.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_1_luyen_tap_vong_lap_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_2_luyen_tap_vong_lap_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_3_luyen_tap_vong_lap_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_4_luyen_tap_vong_lap_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../4_7_luyen_tap_vong_lap_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../16_lap_trinh_huong_doi_tuong_1/bai_tap_xay_dung_mo_ta_lop_dien_thoai.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../16_lap_trinh_huong_doi_tuong_1/bai_tap_xay_dung_mo_ta_lop_dien_thoai.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../16_lap_trinh_huong_doi_tuong_1/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../16_lap_trinh_huong_doi_tuong_1/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectId" id="1gzedzSklj7cGUMQzogBvWR3WZv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c358b59-3c02-4378-a9a2-5bed815ddd4b" name="Default Changelist" comment="" />
+      <created>1599121939220</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599121939220</updated>
+      <workItem from="1599121940370" duration="8226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1099" y="275" key="FileChooserDialogImpl" timestamp="1599223746063">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1099" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599223746063" />
+  </component>
+</project>

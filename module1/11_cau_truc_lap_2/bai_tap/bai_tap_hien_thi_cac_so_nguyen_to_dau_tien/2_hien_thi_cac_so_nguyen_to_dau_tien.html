@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>hien_thi_cac_so_nguyen_to_dau__tien</title>
+</head>
+<body>
+<script>
+        let result = "";
+        let number = 2;
+        let count = 0;
+        let inputTheNumberOfPrime = prompt("Nhập vào số lượng số nguyên tố cần hiển thị");
+        while ( count < inputTheNumberOfPrime) {
+            if (isPrime(number)) {
+                result += number + " la mot so nguyen to " + "</br>";
+                count ++;
+            }
+            number++;
+        }
+        document.write(result);
+
+
+    function isPrime(temp) {
+        if (temp < 2) {
+            return false;
+        }
+
+        for (let j = 2; j <= Math.sqrt(temp); j++) {
+            if (temp % j === 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+</script>
+</body>
+</html>
