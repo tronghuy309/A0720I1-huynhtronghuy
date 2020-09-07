@@ -1,0 +1,63 @@
+body {
+    background-image: url("background1.jpg") ;
+    background-size: cover ;
+}
+
+#form{
+    background-color: rgba(255,246,244,0.64);
+    /*background-color: rgba(255,182,215,0.58);*/
+    float: left;
+    padding: 20px ;
+    width: 30%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+select{
+    width: 177px;
+}
+option{
+    text-align: center;
+}
+td{
+    margin-left: 20px;
+}
+#birthday{
+    width: 172px;
+}
+#submit{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    text-align: center;
+    color:blue;
+    font-size: 20px;
+}
+table tr:nth-child(n) td:nth-child(even){
+    margin-left: 30px   ;
+
+#result{
+    width: 40%;
+    margin: auto;
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: url("background 2.jpg");
+    font-family: "Goudy Old Style";
+    border: solid 2px black;
+}
+
+.spanLeft{
+    margin-top: 20px;
+    margin-left:  120px;
+    font-weight: bold;
+}
+.spanRight{
+    margin-left: 20px;
+}

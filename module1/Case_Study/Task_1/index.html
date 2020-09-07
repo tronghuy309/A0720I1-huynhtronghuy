@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="css_task_1.css" />
+</head>
+<body>
+<div>
+   <h1>FURAMA MAIN</h1>
+</div>
+
+<div id="form">
+    <h2>Booking Information</h2>
+    <hr>
+    <table class="inputtable">
+        <form id="myform" onsubmit="return false">
+            <tr>
+                <td><label for="nameCustomer">Your Name:</label></td>
+                <td><input type="text" id="nameCustomer" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="passportID">Passport:</label></td>
+                <td><input type="text" id="passportID" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="birthday">Birthday:</label></td>
+                <td><input type="date" id="birthday" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="text" id="email" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><input type="text" id="address" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="typeCustomer">Customer Type:</label></td>
+                <td><select id="typeCustomer" required>
+                    <option value="Diamond">Diamond</option>
+                    <option value="Platinum">Platinum</option>
+                    <option value="Gold">Gold</option>
+                    <option value="Silver">Silver</option>
+                    <option value="Member">Member</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="discount">Discount</label></td>
+                <td><input type="text" id="discount" value="0.1" disabled></td>
+            </tr>
+
+            <tr>
+                <td><label for="amount">Amount</label></td>
+                <td><input type="number" id="amount" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="rentDay">RentDay</label></td>
+                <td><input type="number" id="rentDay" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="typeHouse">House Type:</label></td>
+                <td><select id="typeHouse" required>
+                    <option value="Villa">Villa</option>
+                    <option value="House">House</option>
+                    <option value="Room">Room</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><label for="typeRoom">Room Type:</label></td>
+                <td><select id="typeRoom" required>
+                    <option value="Vip">Vip</option>
+                    <option value="Business">Business</option>
+                    <option value="Nomal">Nomal</option>
+                </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="submit" value="Send Request" onclick="showAllInformation()">
+                    <input type="reset">
+                </td>
+            </tr>
+        </form>
+    </table>
+</div>
+
+<div id="result"></div>
+<script src="javascript_task1.js"></script>
+
+</body>
+</html>
