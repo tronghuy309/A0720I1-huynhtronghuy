@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_9</title>
+</head>
+<body>
+<h1> Chuong trinh tinh gia dien sinh hoat:</h1>
+<label for="kwdien"> Nhap vao so KW dien thang roi:</label>
+<input type="number" id="kwdien" > </br>
+<input type="button" value="Tinh Gia Dien" onclick="tinhGiaDien()">
+<p>Ket Qua : </p>
+<div id="result"></div>
+
+<script>
+    function tinhGiaDien() {
+        let kw = parseInt(document.getElementById("kwdien").value);
+        let result = 0;
+        if ( kw > 400) {
+            result = (kw - 400) *2927 + 50*1678 + 50*1734 + 100*2014 + 100*2536 + 100*2834;
+            document.getElementById("result").innerHTML = result + " VND";
+        }
+        else if ( kw >300 ) {
+                result = (kw - 300) *2834 + 50*1678 + 50*1734 + 100*2014 + 100*2536;
+                document.getElementById("result").innerHTML = result+ " VND";
+            }
+        else if ( kw >200 ) {
+            result = (kw - 200) *2536 + 50*1678 + 50*1734 + 100*2014 ;
+            document.getElementById("result").innerHTML = result+ " VND";
+        }
+        else if ( kw >100 ) {
+            result = (kw - 100) *2014 + 50*1678 + 50*1734;
+            document.getElementById("result").innerHTML = result+ " VND";
+        }
+        else if ( kw >50 ) {
+            result = (kw - 50) *1734 + 50*1678;
+            document.getElementById("result").innerHTML = result+ " VND";
+        } else {
+            result = kw*1678;
+            document.getElementById("result").innerHTML = result+ " VND";
+        }
+    }
+
+</script>
+</body>
+</html>

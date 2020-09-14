@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_tap_luyen_tap_vong_lap_2_5</title>
+</head>
+<body>
+<h1> Chuong Trinh Tinh Lai Vay</h1>
+<label for="Vay">So tien vay :(tr VND)</label>
+<input type="number" id="Vay"> </br>
+<label for="thang">So thang vay:</label>
+<input type="number" id="thang"> </br>
+<label for="lai">lai suat 1 thang:</label>
+<input type="number" id="lai"> </br>
+
+<input type="button" value="Tinh tien lai va tien goc" onclick="tinh()">
+<p>Ket Qua:</p>
+<div id="result"></div>
+
+<script>
+    function tinh() {
+        let goc = parseInt(document.getElementById("Vay").value);
+        let thang = parseInt(document.getElementById("thang").value);
+        let laisuat = parseInt(document.getElementById("lai").value);
+        result = goc * Math.pow((1 + 0.01 * laisuat), thang);
+        lai = result - goc;
+        final = "So tien lai va goc sau " + thang + " thang voi lai suat : " + laisuat + "%" + " la :" + result + " trieu dong" + "</br>" + "So tien lai phai tra la : " + lai + " trieu dong";
+        document.getElementById("result").innerHTML = final;
+    }
+</script>
+
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_4</title>
+</head>
+<body>
+<p style="font-weight: bold"> Tinh dien tich hinh chu nhat: </p>
+<label for="canha"> nhap canh a : </label>
+<input type="text"  id="canha" > </br>
+<label for="canhb"> nhap canh b : </label>
+<input type="text"  id="canhb" >
+<input type="button"  value="tinh dien tich" onclick="cal()">
+<p style="font-weight: bold"> Ket Qua: </p>
+<div id="result"></div>
+<script>
+    function cal() {
+        let a = parseInt(document.getElementById("canha").value);
+        let b = parseInt(document.getElementById("canhb").value);
+        let square = a*b ;
+        document.getElementById("result").innerHTML = " Dien Tich Hinh Chu Nhat La : " + square ;
+    }
+</script>
+</body>
+
+</html>

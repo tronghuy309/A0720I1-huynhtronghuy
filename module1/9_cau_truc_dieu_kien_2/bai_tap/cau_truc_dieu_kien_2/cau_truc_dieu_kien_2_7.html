@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_7</title>
+</head>
+<body>
+<p style="font-weight: bold"> Giai phuong trinh bac 2: a*x2 + b*x + c = 0 </p>
+<label for="canha"> Nhap gia tri cua a : </label>
+<input type="text"  id="canha" > </br>
+<label for="canhb"> Nhap gia tri cua b : </label>
+<input type="text"  id="canhb" > </br>
+<label for="canhc"> Nhap gia tri cua c : </label>
+<input type="text"  id="canhc" > </br>
+<input type="button"  value=" Giai Phuong Trinh Bac 2 :" onclick="cal()">
+<p style="font-weight: bold"> Ket Qua: </p>
+<div id="result"></div>
+<script>
+    function cal() {
+        let a = parseInt(document.getElementById("canha").value);
+        let b = parseInt(document.getElementById("canhb").value);
+        let c = parseInt(document.getElementById("canhc").value);
+        let x1;
+        let x2;
+        let x;
+        let z;
+        let delta = parseInt(b * b - 4 * a * c);
+
+        if ( a === 0) {
+            z = -c/(2*b );
+            document.getElementById("result").innerHTML = " Day La Phuong Trinh Bac 1 Co  Nghiem La :  " + z;
+        } else {
+            if (delta === 0) {
+                x = -b / (2 * a);
+                document.getElementById("result").innerHTML = " Phuong Trinh Co 1 Nghiem Kep La :  " + x;
+            } else {
+                if (delta < 0) {
+                    document.getElementById("result").innerHTML = " Phuong Trinh Vo Nghiem ";
+                } else  {
+                    x1 = ((-b + Math.sqrt(delta)) / (2 * a));
+                    x2 = ((-b - Math.sqrt(delta)) / (2 * a));
+                    document.getElementById("result").innerHTML = " Phuong Trinh Co 2 Nghiem La :" +  "</br>" + "x1 =" + x1 + "</br>" + "x2 =" + x2;
+                }
+            }
+        }
+    }
+
+</script>
+</body>
+</html>

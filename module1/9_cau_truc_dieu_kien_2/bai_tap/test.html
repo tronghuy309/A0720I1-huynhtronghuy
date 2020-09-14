@@ -3,81 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-<style>
-    table{
-        border: solid 2px red;
-    }
 
-    button{
-        width: 40px;
-        height: 40px;
-        color: blue;
-        font-size: 16px;
-        font-weight: bold;
-    }
-    #inandout{
-        height: 50px;
-        align-content: center;
-        justify-content: center;
-        text-align: right;
-    }
-</style>
 </head>
 <body>
-<form onsubmit="return false;">
-    <table  >
-        <tr>
-            <td colspan="4"> <input type="text" id="inandout"></td>
-        </tr>
-        <tr>
-            <td><button onclick="nhap('1')">1</button></td>
-            <td><button onclick="nhap('2')">2</button></td>
-            <td><button onclick="nhap('3')">3</button></td>
-            <td><button onclick="nhap('+')">+</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="nhap('4')">4</button></td>
-            <td><button onclick="nhap('5')">5</button></td>
-            <td><button onclick="nhap('6')">6</button></td>
-            <td><button onclick="nhap('-')">-</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="nhap('7')">7</button></td>
-            <td><button onclick="nhap('8')">8</button></td>
-            <td><button onclick="nhap('9')">9</button></td>
-            <td><button onclick="nhap('*')">*</button></td>
-        </tr>
-        <tr>
-            <td><button onclick="xoa()">c</button></td>
-            <td><button onclick="nhap('0')">0</button></td>
-            <td><button onclick="tinhtoan()">=</button></td>
-            <td><button onclick="nhap('/')">/</button></td>
-        </tr>
-    </table>
 
-</form>
+
+<input type="checkbox" id="Good" onclick="check(1)"> GOOD <br>
+<input type="checkbox" id="Fast" onclick="check(2)"> FAST <br>
+<input type="checkbox" id="Cheap" onclick="check(3)"> CHEAP
 
 <script>
-    let temp = false;
-    function nhap(number){
-        if(number != '+' && number != '-'&& number != '*'&& number != '/'){
-            if (temp){
-                xoa();
+    let Good = document.getElementById("Good");
+    let Fast = document.getElementById("Fast");
+    let Cheap = document.getElementById("Cheap");
+    function check(option) {
+        switch (option) {
+            case 1:{
+                if (Cheap.checked && Fast.checked) {
+                    Cheap.checked = false;
+                }
+                break;
+            }
+            case 2: {
+                if (Good.checked && Cheap.checked) {
+                    Good.checked = false;
+                }
+                break;
+            }
+            case 3: {
+                if (Fast.checked && Cheap.checked) {
+                    Fast.checked = false;
+                }
             }
         }
-        temp = false;
-        let input = document.getElementById("inandout");
-        input.value += number;
-
-    }
-    function xoa() {
-        let clear = document.getElementById("inandout");
-        clear.value = "";
-    }
-    function tinhtoan() {
-        let cacular = document.getElementById("inandout");
-        cacular.value = eval(cacular.value);
-        temp = true;
     }
 </script>
 </body>

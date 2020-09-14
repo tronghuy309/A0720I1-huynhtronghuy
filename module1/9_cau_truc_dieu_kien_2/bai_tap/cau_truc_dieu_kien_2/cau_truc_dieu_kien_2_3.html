@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_3</title>
+</head>
+<body>
+<p style="font-weight: bold"> Tinh dien tich hinh vuong : </p>
+<label for="canh a" ></label>
+<input type="text" id="canh a" >
+<input type="button" value="Tinh dien tich hinh vuong" onclick="cal()">
+<p> Ket qua: </p>
+<div id="result"></div>
+<script>
+    function cal() {
+        let a = parseInt(document.getElementById("canh a").value);
+        let square;
+        if ( isNaN(a) || a < 0 ) {
+            document.getElementById("result").innerHTML = "Xin vui long nhap dung";
+        } else {
+            square = a*a;
+            document.getElementById("result").innerHTML = "Dien tich hinh vuong canh " + a + " la " + square;
+        }
+    }
+</script>
+</body>
+</html>

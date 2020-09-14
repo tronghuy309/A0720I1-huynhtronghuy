@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_12</title>
+</head>
+<body>
+<h1> Chuong Trinh Tinh Lai Vay</h1>
+<label for="Vay">So tien vay :(tr VND)</label>
+<input type="number" id="Vay"> </br>
+<label for="thang">So thang vay voi lai suat 5%/thang :</label>
+<input type="number" id="thang"> </br>
+<input type="button" value="Tinh tien lai va tien goc" onclick="cal()">
+<p>Ket Qua:</p> </br>
+<div id="result"></div>
+
+<script>
+    function cal() {
+        let goc = parseInt(document.getElementById("Vay").value);
+        let thang = parseInt(document.getElementById("thang").value);
+        result = goc*Math.pow(1.05,thang);
+        lai = result- goc;
+        document.getElementById("result").innerHTML = "So tien lai va goc sau " + thang + " thang la :" + result + " trieu dong" + "</br>" +  "So tien lai phai tra la : " + lai +" trieu dong";
+    }
+</script>
+</body>
+</html>

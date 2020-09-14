@@ -6,31 +6,31 @@
 </head>
 <body>
 <h2>Type anthing slowly</h2>
-<form name="f">
-    <textarea name="txt" cols="40" rows="10" onkeydown="typeTextarea();"></textarea>
+<form name="faking">
+    <textarea name="text" cols="60" rows="20" onkeydown="typeTextarea();"></textarea>
 </form>
 <script>
-    var a=new Array(),n="";
-    a[1]='T';a[2]='Ô';a[3]='I';a[4]=' ';a[5]='L';a[6]='À';a[7]=' ';a[8]='M';a[9]='Ộ';a[10]='T';a[11]=' ';a[12]='Đ';a[13]='Ứ';a[14]='A';a[15]=' ';a[16]='N';a[17]='G';a[18]='Ố';a[19]='C';a[20]='!';a[21]='!';a[22]='!';
+    let Array=[],n="";
+    Array[1]='T';Array[2]='Ô';Array[3]='I';Array[4]=' ';Array[5]='L';Array[6]='À';Array[7]=' ';Array[8]='M';Array[9]='Ộ';Array[10]='T';Array[11]=' ';Array[12]='Đ';Array[13]='Ứ';Array[14]='A';Array[15]=' ';Array[16]='N';Array[17]='G';Array[18]='Ố';Array[19]='C';Array[20]='!';Array[21]='!';Array[22]='!';
     function typeTextarea(){
-        t = document.f.txt.value;
-        j = t.length;
+        let t = document.faking.text.value;
+        let j = t.length;
         if(j > 0)
         {
             for(var i=1; i<=j; i++)
             {
-                n = n + a[i];
-                if(i == 22)
+                n = n + Array[i];
+                if(i === 22)
                 {
-                    document.f.txt.value = "";
+                    document.faking.text.value = "";
                     n = "";
                 }
             }
         }
-        document.f.txt.value = n;
+        document.faking.text.value = n;
         n="";
-        setTimeout("typeTextarea()", 1);
-        //return false;
+        setTimeout("typeTextarea()", 99999999999999999999999999999999);
+
     }
 
 </script>

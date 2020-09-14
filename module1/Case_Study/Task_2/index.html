@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>index_task_2</title>
+    <link rel="stylesheet" href="css_task_2.css" >
 </head>
 <body>
 <div>
@@ -16,32 +17,32 @@
         <form id="myform" onsubmit="return false">
             <tr>
                 <td><label for="nameCustomer">Your Name:</label></td>
-                <td><input type="text" id="nameCustomer" required></td>
+                <td><input type="text" id="nameCustomer" ></td>
             </tr>
 
             <tr>
                 <td><label for="passportID">Passport:</label></td>
-                <td><input type="text" id="passportID" required></td>
+                <td><input type="text" id="passportID" ></td>
             </tr>
 
             <tr>
                 <td><label for="birthday">Birthday:</label></td>
-                <td><input type="date" id="birthday" required></td>
+                <td><input type="date" id="birthday" ></td>
             </tr>
 
             <tr>
                 <td><label for="email">Email:</label></td>
-                <td><input type="text" id="email" required></td>
+                <td><input type="text" id="email" ></td>
             </tr>
 
             <tr>
                 <td><label for="address">Address:</label></td>
-                <td><input type="text" id="address" required></td>
+                <td><input type="text" id="address" ></td>
             </tr>
 
             <tr>
                 <td><label for="typeCustomer">Customer Type:</label></td>
-                <td><select id="typeCustomer" required>
+                <td><select id="typeCustomer" >
                     <option value="Diamond">Diamond</option>
                     <option value="Platinum">Platinum</option>
                     <option value="Gold">Gold</option>
@@ -58,17 +59,17 @@
 
             <tr>
                 <td><label for="amount">Amount</label></td>
-                <td><input type="number" id="amount" required></td>
+                <td><input type="number" id="amount" ></td>
             </tr>
 
             <tr>
                 <td><label for="rentDay">RentDay</label></td>
-                <td><input type="number" id="rentDay" required></td>
+                <td><input type="number" id="rentDay" ></td>
             </tr>
 
             <tr>
                 <td><label for="typeHouse">House Type:</label></td>
-                <td><select id="typeHouse" required>
+                <td><select id="typeHouse" >
                     <option value="Villa">Villa</option>
                     <option value="House">House</option>
                     <option value="Room">Room</option>
@@ -78,7 +79,7 @@
 
             <tr>
                 <td><label for="typeRoom">Room Type:</label></td>
-                <td><select id="typeRoom" required>
+                <td><select id="typeRoom" >
                     <option value="Vip">Vip</option>
                     <option value="Business">Business</option>
                     <option value="Nomal">Nomal</option>
@@ -88,7 +89,7 @@
 
             <tr>
                 <td colspan="2">
-                    <input type="submit" id="submit" value="Send Request" onclick="showAllInformation()">
+                    <input type="submit" id="submit" value="Send Request" onclick="showMenu()">
                     <input type="reset">
                 </td>
             </tr>
@@ -97,6 +98,6 @@
 </div>
 
 <div id="result"></div>
-<script src="javascript_task1.js"></script>
+<script src="javascript_task2.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_tap_luyen_tap_vong_lap_2_2</title>
+</head>
+<body>
+<h1> Tinh Giai Thua </h1>
+<label for="num">Nhap so muon tinh giai thua :</label>
+<input type="number" id="num">
+<input type="button" value="In ra man hinh"  onclick="main()">
+<p> ket qua: </p> </br>
+<div id="result"></div>
+
+<script>
+    function main() {
+        let num = parseInt(document.getElementById("num").value);
+        let result = 1;
+        for ( let i = num; i >=1 ; i--) {
+            result *= i;
+        }
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+
+
+
+</body>
+</html>

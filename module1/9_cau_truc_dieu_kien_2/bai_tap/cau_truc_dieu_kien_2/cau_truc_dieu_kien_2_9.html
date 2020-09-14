@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_9</title>
+</head>
+<h1> Check Hinh Tam Giac</h1>
+<label for="canhA">Nhap vao do dai canh a: </label>
+<input type="number" id="canhA"> </br>
+<label for="canhB">Nhap vao do dai canh b: </label>
+<input type="number" id="canhB"> </br>
+<label for="canhC">Nhap vao do dai canh c: </label>
+<input type="number" id="canhC"> </br>
+<input type="button" value="Check Tam Giac" onclick="check()"> </br>
+<p> Ket qua check hinh tam giac: </p>
+<div id="result"></div>
+
+<script>
+    function check() {
+        let a = parseInt(document.getElementById("canhA").value);
+        let b = parseInt(document.getElementById("canhB").value);
+        let c = parseInt(document.getElementById("canhC").value);
+        if ( a<=0 || b<=0 || c<=0) {
+            document.getElementById("result").innerHTML = " de nghi nhap do dai canh tam giac >0"
+        } else {
+            if ( a + b >c && b +c >a && a + c > b) {
+                document.getElementById("result").innerHTML = a + " va " + b + " va " + c + " :la chieu dai 3 canh cua 1 hinh tam giac";
+            } else {
+                document.getElementById("result").innerHTML = a + " va " + b + " va " + c + " : KHONG PHAI LA chieu dai 3 canh cua 1 hinh tam giac";
+            }
+        }
+    }
+</script>
+</body>
+</html>

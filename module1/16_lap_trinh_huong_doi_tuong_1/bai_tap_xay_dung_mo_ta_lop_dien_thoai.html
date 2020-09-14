@@ -2,9 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>bai_tap_xay_dung_mo_ta_lop_dien_thoai</title>
 </head>
 <body>
-$END$
+<script>
+    class Mobile {
+        constructor(pin, sendMessage, messComposing, inboxMessage, status) {
+            this.pin = pin;
+            this.sendMessage = pin;
+            this.messComposing = messComposing;
+            this.inboxMessage = inboxMessage;
+            this.status = status;
+        }
+        isStatus() {
+            if(this.status) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+        changeStatus(){
+            this.status = !this.status;
+            this.pin--;
+        }
+        chargingPin() {
+            while(this.pin<=100){
+                this.pin+=1;
+            }
+        }
+        soanTinnhan(mobile) {
+            if (this.isStatus()) {
+                let message = prompt("moi ban nhap tin nhan");
+                let isSend = confirm("ban co muon gui tin nhan nay di khong");
+                if (isSend) {
+                    this.sendMessage.push(message);
+                    mobile.inboxMessage.push(message);
+                } else {
+                    this.messComposing.push(message);
+                }
+                this.pin--;
+            } else {
+                alert("Dien thoai da tat")
+            }
+        }
+        xemMessageHopThuDen(){
+            if(this.isStatus()) {
+                let temp="";
+                for(let i=0; i<this.inboxMessage.length;i++) {
+                    temp += i+": "+ this.inboxMessage[i]+ "/n";
+                }
+                let index = prompt(temp);
+                alert((this.inboxMessage[index]));
+            }else {
+                alert("Dien thoai da tat")
+            }
+            this.pin--;
+        }
+
+        xemMessageHopThuDaGui(){
+            if(this.isStatus()) {
+                let temp="";
+                for(let i=0; i<this.sendMessage.length;i++) {
+                    temp += i+":"+ this.sendMessage[i]+ "/n";
+                }
+                let index = prompt(temp);
+                alert((this.sendMessage[index]));
+            }else {
+                alert("Dien thoai da tat")
+            }
+            this.pin--;
+        }
+    }
+    let nokia = new Mobile(100,[],[],[].true);
+    let iphone = new Mobile(100,[],[],[].true);
+    nokia.soanTinnhan(iphone);
+    nokia.xemMessageHopThuDaGui();
+    iphone.xemMessageHopThuDen();
+
+</script>
 </body>
 </html>

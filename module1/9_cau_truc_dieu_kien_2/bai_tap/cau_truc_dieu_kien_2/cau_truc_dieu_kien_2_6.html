@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_6</title>
+</head>
+<body>
+<p style="font-weight: bold"> Giai phuong trinh bac 1 a*x + b = 0: </p>
+<label for="canha"> nhap gia tri cua a : </label>
+<input type="text"  id="canha" > </br>
+<label for="canhb"> nhap gia tri cua b : </label>
+<input type="text"  id="canhb" >
+<input type="button"  value="Tim Bien X" onclick="cal()">
+<p style="font-weight: bold"> Ket Qua: </p>
+<div id="result"></div>
+<script>
+    function cal() {
+        let a = parseInt(document.getElementById("canha").value);
+        let b = parseInt(document.getElementById("canhb").value);
+        let x= -b/a ;
+        document.getElementById("result").innerHTML = " Bien X co gia tri la : " + x ;
+    }
+</script>
+</body>
+</html>

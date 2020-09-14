@@ -1,6 +1,10 @@
 body {
-    background-image: url("background1.jpg") ;
+    background-image: url("background 2.jpg") ;
     background-size: cover ;
+}
+
+h1 {
+    color: #dddddd;
 }
 
 #form{

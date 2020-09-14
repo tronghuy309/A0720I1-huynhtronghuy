@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_2</title>
+</head>
+<body>
+<P> Chuyen Doi Tu Met Sang Feet : </P>
+<label for="met">Nhap vao so met can doi: </label>
+<input type="text" id="met">
+<input type="button" value="calculator" onclick="cal()">
+<div id="result"></div>
+<script>
+    function cal() {
+        let m = parseInt(document.getElementById("met").value);
+        let feet = m * 3.2 ;
+        document.getElementById('result').innerHTML = "chuyen sang feet co gia tri la : " + feet + " feet" ;
+    }
+
+</script>
+</body>
+</html>

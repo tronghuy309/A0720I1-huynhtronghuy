@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai_tap_luyen_tap_vong_lap_2_1</title>
+</head>
+<body>
+<h1>In day so fibonaci</h1>
+<label for="num">Ban muon in ra man hinh day so fibonaci bao nhieu so:</label>
+<input type="number" id="num">
+<input type="button" value="In ra man hinh"  onclick="main()">
+<div id="result"></div>
+<script>
+    function main() {
+        num = parseInt(document.getElementById("num").value);
+        let a0 = 1;
+        let a1 = 1;
+        let temp;
+        let result = a0 + ' ' + a1 + ' ';
+        let count = 2;
+        while (count <= num) {
+            temp = a0 + a1;
+            a0 = a1;
+            a1 = temp;
+            result += temp + " "
+            count++;
+        }
+        document.getElementById("result").innerHTML = result;
+    }
+</script>
+</body>
+</html>

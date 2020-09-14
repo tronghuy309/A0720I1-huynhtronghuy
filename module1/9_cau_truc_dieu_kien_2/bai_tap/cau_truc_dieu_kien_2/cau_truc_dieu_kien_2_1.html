@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cau_truc_dieu_kien_2_1</title>
+</head>
+<body>
+<p style="font-weight: bold"> Enter Celsius</p>
+<label for="celsius">Nhap vao nhiet do Celsius : </label>
+<input type="number"  id="celsius" >
+<input type="button"  value="Calculator" onclick="cal()">
+
+<div id="result">Kết Quả :</div>
+<script>
+
+    function cal() {
+        let cel = parseFloat(document.getElementById("celsius").value);
+        let f ;
+        if( isNaN(cel) || cel < 0 ) {
+            alert(" input wrong ")
+        } else {
+            f= cel*9/5+32;
+            result = "nhiet do chuyen doi la :" + f + " do F";
+            document.getElementById("result").innerHTML = result;
+        }
+    }
+
+</script>
+</body>
+</html>
