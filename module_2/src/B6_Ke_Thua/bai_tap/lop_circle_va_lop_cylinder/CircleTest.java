@@ -1,14 +1,14 @@
-package B6_Ke_Thua.thuc_hanh.he_cac_doi_tuong_hinh_hoc;
+package B6_Ke_Thua.bai_tap.lop_circle_va_lop_cylinder;
 
 public class CircleTest {
     public static void main(String[] args) {
         Circle circle = new Circle();
         System.out.println(circle);
 
-        circle = new Circle(3.5);
+        circle = new Circle(2.5,"red");
         System.out.println(circle);
+        System.out.println(circle.getArea());
 
-        circle = new Circle(3.5," indigo ",false);
         System.out.println(circle);
     }
 }
