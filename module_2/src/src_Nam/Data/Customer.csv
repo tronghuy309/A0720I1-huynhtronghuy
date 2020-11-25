@@ -1,0 +1,6 @@
+NameOfCustomer,DateOfBirth,Gender,IdCard,PhoneNumber,Email,TypeOfCustomer,Address,UserService
+ga ga,21/07/2000,Male,123456789,01010101,to@gmail.com,null,null,null
+oạid,21/07/2000,Male,191919191,1,kajsnd@gmail.com,null,null,null
+thanh ,21/02/2000,Male,111111111,0977,thanh@gmail.com,1,null,null
+pa,21/07/2000,Female,111111111,9101,pa@gmail.com,3,null,null
+Thanh Nam,11/11/2002,Male,123456789,1811,to@gmail.com,GA,87 CAO THANG,null
