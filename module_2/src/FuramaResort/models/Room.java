@@ -1,41 +1,34 @@
 package FuramaResort.models;
 
 public class Room extends Services {
-    private String compServices;
+    private ExtraService extraService;
+
 
     public Room() {
-    }
 
-    public Room(String id, String serviceName, double area, double rate, int maxCapacity, String rentType, String compServices) {
-        super(id, serviceName, area, rate, maxCapacity, rentType);
-        this.compServices = compServices;
+}
+    public Room(String id, String serviceName, double areaUse, double rentCost, int numberOfPeoples, String typeRent, ExtraService extraService) {
+        super(id, serviceName, areaUse, rentCost, numberOfPeoples, typeRent);
+        this.extraService = extraService;
     }
 
     @Override
-    public String showInfor() {
+    public void showInfor() {
+        System.out.println(this.toString());
+    }
+
+    public ExtraService getExtraService() {
+        return extraService;
+    }
+
+    public void setExtraService(ExtraService extraService) {
+        this.extraService = extraService;
+    }
+
+    @Override
+    public String toString() {
         return "Room{" +
-                "id='" + getId() + '\'' +
-                ", serviceName='" + getServiceName() + '\'' +
-                ", area=" + getArea() +
-                ", rate=" + getRate() +
-                ", maxCapacity=" + getMaxCapacity() +
-                ", rentType='" + getRentType() + '\'' +
-                "compServices='" + compServices + '\'' +
+                "extraService=" + extraService +
                 "} " + super.toString();
-    }
-    @Override
-    public String getHeader(){
-        return "Villa Id,Service Name,Area,Rate,Max Capacity,Rent Type";
-    }
-
-
-    public String writeToCSV(){
-        return getId() +
-                "," + getServiceName() +
-                "," + getArea() +
-                "," + getRate() +
-                "," + getMaxCapacity() +
-                "," + getRentType();
-
     }
 }

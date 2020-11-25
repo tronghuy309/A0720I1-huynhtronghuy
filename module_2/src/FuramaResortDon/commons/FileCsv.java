@@ -1,7 +1,6 @@
-package FuramaResort.commons;
+package FuramaResortDon.commons;
 
-import FuramaResort.models.Services;
-import FuramaResort.models.Villa;
+import FuramaResortDon.models.Services;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -1,8 +1,8 @@
-package FuramaResort.commons;
+package FuramaResortDon.commons;
 
-import FuramaResort.models.House;
-import FuramaResort.models.Room;
-import FuramaResort.models.Villa;
+import FuramaResortDon.models.House;
+import FuramaResortDon.models.Room;
+import FuramaResortDon.models.Villa;
 
 import java.util.Scanner;
 

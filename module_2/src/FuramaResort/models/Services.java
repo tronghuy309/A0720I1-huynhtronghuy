@@ -1,24 +1,27 @@
 package FuramaResort.models;
 
-public abstract class Services {
-    private  String id;
-    private  String serviceName;
-    private double area;
-    private double rate;
-    private int maxCapacity;
-    private String rentType;
+public abstract  class Services {
+    protected String id;
+    protected String serviceName;
+    protected double areaUse;
+    protected double rentCost;
+    protected int numberOfPeoples;
+    protected String typeRent;
 
-    protected Services() {
-    };
-
-    protected Services(String id, String serviceName, double area, double rate, int maxCapacity, String rentType) {
+    public Services() {
+    }
+    public Services(String id, String serviceName, double areaUse, double rentCost, int numberOfPeoples, String typeRent) {
         this.id = id;
         this.serviceName = serviceName;
-        this.area = area;
-        this.rate = rate;
-        this.maxCapacity = maxCapacity;
-        this.rentType = rentType;
+        this.areaUse = areaUse;
+        this.rentCost = rentCost;
+        this.numberOfPeoples = numberOfPeoples;
+        this.typeRent = typeRent;
     }
+
+    public abstract void showInfor(
+    );
+
 
     public String getId() {
         return id;
@@ -36,43 +39,47 @@ public abstract class Services {
         this.serviceName = serviceName;
     }
 
-    public double getArea() {
-        return area;
+    public double getAreaUse() {
+        return areaUse;
     }
 
-    public void setArea(double area) {
-        this.area = area;
+    public void setAreaUse(double areaUse) {
+        this.areaUse = areaUse;
     }
 
-    public double getRate() {
-        return rate;
+    public double getRentCost() {
+        return rentCost;
     }
 
-    public void setRate(double rate) {
-        this.rate = rate;
+    public void setRentCost(double rentCost) {
+        this.rentCost = rentCost;
     }
 
-    public int getMaxCapacity() {
-        return maxCapacity;
+    public int getNumberOfPeoples() {
+        return numberOfPeoples;
     }
 
-    public void setMaxCapacity(int maxCapacity) {
-        this.maxCapacity = maxCapacity;
+    public void setNumberOfPeoples(int numberOfPeoples) {
+        this.numberOfPeoples = numberOfPeoples;
     }
 
-    public String getRentType() {
-        return rentType;
+    public String getTypeRent() {
+        return typeRent;
     }
 
-    public void setRentType(String rentType) {
-        this.rentType = rentType;
+    public void setTypeRent(String typeRent) {
+        this.typeRent = typeRent;
     }
 
-    public abstract String showInfor();
-
-    public abstract String writeToCSV();
-
-    public abstract String getHeader();
-
-
+    @Override
+    public String toString() {
+        return "Services{" +
+                "id='" + id + '\'' +
+                ", serviceName='" + serviceName + '\'' +
+                ", areaUse=" + areaUse +
+                ", rentCost=" + rentCost +
+                ", numberOfPeoples=" + numberOfPeoples +
+                ", typeRent='" + typeRent + '\'' +
+                '}';
+    }
 }
